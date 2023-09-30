@@ -3,23 +3,25 @@
   display: flex;
 justify-content: space-between;
 align-items: center;
+min-width: 1440px;
+
 }
 
 .header__logo-image{
   width: 148px;
   height: 105px;
-}
-.header__menu{
+  margin-right: 145px;
 
 }
+
 .header__links-list{
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
-  gap: 22px;
-  
-
+  gap: 32px;
+  padding-top: 2px;
+  text-align: center;
 }
+
 .header__links-list-item{
   list-style: circle;
   color: #000;
@@ -29,8 +31,15 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+
 .header__links-list-item_no-bullit{
   list-style: none;
+  font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .header__address{
@@ -40,16 +49,21 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 24.3px; /* 135% */
+max-width: 240px;
+min-height: 100px;
+padding-left: px
+
 }
 
 .cover{
  position: relative;
-  z-index: -2;
-  margin-top: 92px;
+  z-index: -1;
+  margin-top: 90px;
   background-image:  url(/images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
+  min-height: 760px;
+  min-width: 1440px;
 }
 
 .overlay{
@@ -73,28 +87,32 @@ line-height: 100%; /* 100px */
 letter-spacing: 30px;
 text-transform: uppercase;
 text-align: left;
-padding-top: 20px;
+}
 
+.aligned-text-pd{
+  padding-top: 175px;
 }
 
 .aligned-text_center{
   text-align: center;
+  padding-top: 25px;
 }
 
 .aligned-text_right{
-text-align: right;
+text-align: right; 
 padding-right: 50px;
+padding-top: 23px;
+
 }
 
 .aligned-text-pd{
   padding-left: 50px;
-  padding-top: 165px;
-  
 }
 
 .letter-spacing-extended{
   letter-spacing: 60px;
 }
+
 .no-letter-spacing{
   letter-spacing: 0px;
 }
@@ -103,9 +121,8 @@ padding-right: 50px;
   display: flex;
   flex-direction: row;
   justify-content: right;
-  padding-top: 147px;
-  padding-bottom: 62px;
-  gap: 90px;
+  gap: 82px;
+  padding-top: 135px;
 }
 
 .cover__description-text{
@@ -116,7 +133,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 127.273% */
 text-transform: uppercase;
-word-spacing:  15px;
+word-spacing:  17px;
+text-align: center;
+padding-top: 10px;
 }
 
 .bet-button{
