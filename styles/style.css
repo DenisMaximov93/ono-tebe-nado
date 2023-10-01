@@ -98,12 +98,11 @@ text-transform: uppercase;
   text-align: center;
 }
 
-.aligned-text_right {
-padding-top: 23px; 
-padding-right: 50px;
-text-align: right;
+.padding-text_right {
+  padding-top: 23px;
+  padding-right: 50px;
+  text-align: right;
 }
-
 
 .letter-spacing-extended {
   letter-spacing: 60px;
